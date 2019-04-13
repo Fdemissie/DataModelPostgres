@@ -40,13 +40,17 @@ count
 289
 
 `SELECT * FROM users LIMIT 5;`
+
 ![users](resource/users.PNG)
 
 `SELECT * FROM artists LIMIT 5;`
+
 ![artists](resource/artists.PNG)
 
 `SELECT * FROM songs LIMIT 5;`
+
 ![songs](resource/songs.PNG)
 
 `SELECT * FROM users LIMIT 5;`
+
 ![songs](resource/users.PNG)
