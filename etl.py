@@ -38,7 +38,7 @@ def process_log_file(cur, filepath):
         cur.execute(time_table_insert, list(row))
 
     # load user table
-    user_df = pd.DataFrame(df[["userId", "firstName", "lastName" , "gender", "level"]].values.tolist())
+    user_df = pd.DataFrame(df[['userId', 'firstName', 'lastName' , 'gender', 'level']].values.tolist())
 
     # insert user records
     for i, row in user_df.iterrows():
